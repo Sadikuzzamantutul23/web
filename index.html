@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <section class="heder">
+           <nav>
+            <a href="index.html"><img src="download.png" class="logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-window-close" onclick="hidenmenu()"></i>
+                <ul>
+                   <li><a href="">HOME</a></li>
+                  <li><a href="">ABOUT</a></li>
+                   <li><a href="">COURSE</a></li>
+                   <li><a href="">BlOGE</a></li>
+                   <li><a href="">CONTARCT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+           </nav>
+           <div class="text-box">
+            <h1>Wrold's Biggest University</h1>
+            <p>Making website is now one of the essiest thing in the word.<br>
+                just need to learn HTML, CSS and you are good to go
+            </p>
+            <a href="" class="hero-btn"> Visit Us to Know More</a>
+           </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    
+    <!--java script-->
+      <script>
+var navlink = document.getElementById("navlink");
+function showmenu(){
+    navlink.style.right="0";
+}
+function hidenmenu(){
+    navlink.style.right="-200px";
+}
+      </script>
+
+</body>
+</html>
